@@ -8,6 +8,13 @@ packages = [{include = "fastapi_ml_docker"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi = "^0.103.0"
+pillow = "^10.0.0"
+python-multipart = "^0.0.6"
+torch = "^2.0.1"
+transformers = "^4.32.1"
+uvicorn = "^0.23.2"
+ipykernel = "^6.25.1"
 
 
 [build-system]
