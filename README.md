@@ -12,11 +12,22 @@ The goal of this project is to refactor a starter file named `model_starter.py` 
 * Transformers
 * Pillow
 
-You can install these dependencies via pip:
+## You can install these dependencies via Poetry:
 
 ```bash
 poetry install
 ```
+
+## Via Docker
+Alternatively, you can build and run the application using Docker:
+
+```bash
+Copy code
+docker build -t fastapi-docker .
+docker run -p 8000:8000 fastapi-docker
+```
+
+This will build a Docker image named fastapi-docker and then run it, mapping port 8000 in the container to port 8000 on your host machine.
 
 ## Project Structure
 
